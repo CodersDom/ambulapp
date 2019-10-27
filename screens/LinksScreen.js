@@ -4,6 +4,7 @@ import { Container, Text } from "native-base";
 
 import MapView from 'react-native-maps';
 import Polyline from '@mapbox/polyline';
+import { black } from "ansi-colors";
 
 
 class LocationA extends Component {
@@ -156,6 +157,8 @@ const styles = StyleSheet.create({
     marginBottom: 'auto',
     marginLeft: 'auto',
     marginRight: 'auto',
+    backgroundColor: 'black',
+    color: 'white',
   },
   allNonMapThings: {
     alignItems: 'center',
